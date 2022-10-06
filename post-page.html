@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <!-- icon css -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+
+    <!-- header -->
+    <header>
+        <div class="nav container">
+            <!-- logo -->
+            <a href="#" class="logo">Ve<span>nom</span></a>
+
+            <!-- Login btn -->
+            <a href="#" class="login">Login</a>
+        </div>
+    </header>
+
+
+    <!-- post content -->
+    <section class="post-header">
+        <div class="header-content post-container">
+            <!-- back to here -->
+            <a href="index.html" class="back-home">Back To Home</a>
+
+            <!-- title -->
+            <h2 class="header-title">How to Create Best UX Design With Adobe XD</h2>
+
+            <!-- post image -->
+            <img src="img/post-1.jpg" alt="" class="header-img">
+        </div>
+    </section>
+
+
+    <!-- posts -->
+    <div class="post-content post-container">
+        <h2 class="sub-heading">Create Best UX Design</h2>
+        <p class="post-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ex iure rem maiores ipsa nobis. Blanditiis aliquid ullam, quas optio amet vel deleniti excepturi aperiam aliquam odio est libero temporibus neque quidem architecto. Repellat ab odio, maiores recusandae est quis natus rerum nulla amet! Sequi!</p>
+        <p class="post-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ex iure rem maiores ipsa nobis. Blanditiis aliquid ullam, quas optio amet vel deleniti excepturi aperiam aliquam odio est libero temporibus neque quidem architecto. Repellat ab odio, maiores recusandae est quis natus rerum nulla amet! Sequi!</p>
+        <h2 class="sub-heading">Create Best UX Design</h2>
+        <p class="post-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ex iure rem maiores ipsa nobis. Blanditiis aliquid ullam, quas optio amet vel deleniti excepturi aperiam aliquam odio est libero temporibus neque quidem architecto. Repellat ab odio, maiores recusandae est quis natus rerum nulla amet! Sequi!</p>
+        <p class="post-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ex iure rem maiores ipsa nobis. Blanditiis aliquid ullam, quas optio amet vel deleniti excepturi aperiam aliquam odio est libero temporibus neque quidem architecto. Repellat ab odio, maiores recusandae est quis natus rerum nulla amet! Sequi!</p>
+        <p class="post-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ex iure rem maiores ipsa nobis. Blanditiis aliquid ullam, quas optio amet vel deleniti excepturi aperiam aliquam odio est libero temporibus neque quidem architecto. Repellat ab odio, maiores recusandae est quis natus rerum nulla amet! Sequi!</p>
+        <p class="post-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ex iure rem maiores ipsa nobis. Blanditiis aliquid ullam, quas optio amet vel deleniti excepturi aperiam aliquam odio est libero temporibus neque quidem architecto. Repellat ab odio, maiores recusandae est quis natus rerum nulla amet! Sequi!</p>
+    </div>
+
+
+    <!-- share -->
+    <div class="share post-container">
+        <span class="share-title">Share this article</span>
+        <div class="social">
+            <a href="#">
+                <box-icon type='logo' name='facebook'></box-icon>
+            </a>
+
+            <a href="#">
+                <box-icon type='logo' name='instagram'></box-icon>
+            </a>
+
+            <a href="#">
+                <box-icon type='logo' name='twitter'></box-icon>
+            </a>
+        </div>
+    </div>
+
+
+    <!-- footer -->
+    <div class="footer container">
+        <p>&#169; Carpoolvenom All Right Reserved</p>
+        <div class="social">
+            <a href="#">
+                <box-icon type='logo' name='facebook'></box-icon>
+            </a>
+
+            <a href="#">
+                <box-icon type='logo' name='instagram'></box-icon>
+            </a>
+
+            <a href="#">
+                <box-icon type='logo' name='twitter'></box-icon>
+            </a>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <!-- icon js -->
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+    <!-- custom js -->
+    <script src="JS/main.js"></script>
+
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+
+
+    <script>
+
+        // header backgroun change on scroll
+        let header = document.querySelector("header");
+
+        window.addEventListener('scroll', () => {
+            header.classList.toggle('shadow', window.scrollY > 0)
+        })
+
+
+    </script>
+</body>
+</html>
